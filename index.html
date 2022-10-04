@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="./imgs/logo.png">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/Silkscreen-Bold.ttf">
+    <link rel="stylesheet" href="fonts/Silkscreen-Regular.ttf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+    <div class="landing-page">
+        <div class="container">
+            <div class="header-cont">
+
+                <div class="header">
+                    <div class="logo">
+                        <div class="icon">
+                            <img src="./imgs/logo.png" alt="">
+                        </div>
+                        <div class="text">khal</div>
+                    </div>
+                    <ul >
+                        <li> <a href="#" data-sec="about"   >About</a></li>
+                        <li> <a href="#" data-sec="gallery" >Gallery</a></li>
+                        <li> <a href="#" data-sec="test"    >Testmonials</a></li>
+                    </ul>
+                    <button class="toggle" style="display: none;">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="welcome">
+            <h3>Welcome<i class="fas fa-hands-helping"></i></h3>
+
+            <p><span>I Am happy with your visit to this website. </span></br>
+                My Name is &nbsp;<strong>&nbsp; Zeiad Khaled </strong>&nbsp;, I Am a front-end developer and i will help
+                you to build your website,
+                <span class="start">let's start.</span> </p>
+        </div>
+
+        <div class="filter"></div>
+
+    </div>
+
+    <!-- gallery -->
+
+    <div class="gallery">
+        <div class="img-container">
+
+            <img src="imgs/img-1.png" alt="">
+            <img src="imgs/img-3.png" alt="">
+            <img src="imgs/img-4.png" alt="">
+            <img src="imgs/img-5.png" alt="">
+            <img src="imgs/img-6.png" alt="">
+            <img src="imgs/img-7.png" alt="">
+        </div>
+
+        <i class="right-btn fas fa-arrow-alt-circle-right"></i>
+        <i class="left-btn fas fa-arrow-alt-circle-left"></i>
+
+    </div>
+
+
+    <!-- gear box -->
+
+    <div class="gear-box">
+        <div class="gear">
+            <i class="fas fa-cogs"></i>
+        </div>
+        <div class="content">
+            <div class="colors">
+                Colors
+                <ul>
+                    <li class="active" data-color="#e46b6b"></li>
+                    <li data-color="#673AB7"></li>
+                    <li data-color="#00BCD4"></li>
+                    <li data-color="#8BC34A"></li>
+
+                </ul>
+            </div>
+
+            <div class="auto-gallery">
+                <h3>Auto Gallery</h3>
+                <span class="Yes selected">Yes</span>
+                <span class="No">No</span>
+            </div>
+
+            <div class="nav-show">
+                <h3>Navigation-bullets</h3>
+                <span class="Yes selected" data-show="yes">Yes</span>
+                <span class="No" data-show="no">No</span>
+            </div>
+            <butoon class="reset">Reset</butoon>
+
+        </div>
+    </div>
+
+<!-- navigation bullets -->
+
+    <!-- <div class="container"> -->
+        <div class="nav">
+            <div class="bullet" data-sec="skills">
+                <div class="tooltip">
+                Skills
+            </div>
+        </div>
+        <div class="bullet" data-sec="sec-cont">
+            <div class="tooltip">
+                Work Gallery
+            </div>
+        </div>
+        <div class="bullet" data-sec="features">
+            <div class="tooltip">
+                Features
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
+
+    <!-- about -->
+    <div class="about">
+        <img class="yellow" src="./imgs/yellowside.png" alt="">
+        <div class="container">
+            <div class="about-cont">
+
+                <!-- <img src="./imgs/blueside.png" alt=""> -->
+
+                <div class="info">
+
+                    <h2>About</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit, ipsam fugit minima non numquam ex nihil doloremque excepturi
+                        voluptate fugiat perspiciatis, obcaecati ipsa. Nulla minus repellendus
+                        tempora voluptatem quam dolores.</p>
+
+                </div>
+
+                <div class="img-cont">
+                    <img src="/imgs/about2.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-cont">
+                <div class="skill">
+                    <img src="./imgs/html.png" alt="">
+                    <span data-progress="94%">94%</span>
+                    <div class="txt">
+                        <h3>HTML</h3>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores cumque
+                            temporibus dolore iusto sint.</P>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./imgs/css.png" alt="">
+                    <span data-progress="92%">92%</span>
+                    <div class="txt">
+                        <h3>CSS</h3>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores cumque
+                            temporibus dolore iusto sint.</P>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./imgs/js.png" alt="">
+                    <span data-progress="87%">87%</span>
+                    <div class="txt">
+                        <h3>jS</h3>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores cumque
+                            temporibus dolore iusto sint.</P>
+                    </div>
+                </div>
+                <div class="skill">
+
+                    <img src="./imgs/reactjs.png" alt="">
+                    <span data-progress="20%">20%</span>
+                    <div class="txt">
+                        <h3>React.js</h3>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores cumque
+                            temporibus dolore iusto sint.</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- second gallery -->
+    <div class="sec-cont">
+            <div class="container">
+            <h2 id="second-gallery">work gallery</h2>
+            <div class="second-gallery">
+                <img src="imgs/s1.png" alt="">
+                <img src="imgs/s2.png" alt="">
+                <img src="imgs/s3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- timeline -->
+    <div class="timeline">
+        <div class="container">
+            <h2>Time line</h2>
+            <div class="timeline-cont">
+
+                <div class="year">2022</div>
+                <div class="left">
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus est laudantium praesentium, ex temporibus quibusdam neque quidem nobis illo maiores odio quasi autem, vero itaque maxime necessitatibus nisi adipisci.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>This is header</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum explicabo voluptatem, laboriosam dolore placeat necessitatibus unde! Quam, similique esse. Et reiciendis eum molestiae optio culpa ratione fugit nesciunt enim.</p>
+                </div>
+                <div class="clearfix"></div>
+                
+            </div>
+            
+            
+                <div class="year">2021</div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>Lorem</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod et iste aliquam minima laborum, sit aperiam cum ea id natus, debitis, ipsam cumque!</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>Lorem sec tim lin</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod et iste aliquam minima laborum, sit aperiam cum ea id natus, debitis, ipsam cumque! ,Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <h3>Lorem, ipsum dolor</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sit dolor illo dignissimos ipsa.</p>
+                </div>
+            </div>    
+        
+    </div>
+    <div class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-cont">
+                <div class="feat">
+                    <img src="./imgs/Icon_01.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="feat">
+                    <img src="./imgs/Icon_02.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="feat">
+                    <img src="./imgs/Icon_03.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="feat">
+                    <img src="./imgs/Icon_04.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="feat">
+                    <img src="./imgs/Icon_05.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="feat">
+                    <img src="./imgs/Icon_06.png" alt="">
+                    <h4>heading</h4>
+                    <p>we will make this feature for you, Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testmonials -->
+
+    <div class="test">
+        <h2>testmonials</h2>
+        <div class="container">
+            
+            <div class="test-cont">
+                <div class="test-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum modi asperiores molestias, assumenda quas esse quis.</p>
+                    <div class="info">
+                        <img src="https://www.placecage.com/130/130" alt="">
+                        <h3>Name Name</h3>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+            </div>
+            <div class="test-box">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa deleniti possimus! Impedit accusantium quod laudantium voluptatem numquam omnis.</p>
+                <div class="info">
+                    <img src="https://www.placecage.com/130/130" alt="">
+                    <h3>Name Name</h3>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="test-box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ex commodi cumque enim!</p>
+                <div class="info">
+                    <img src="https://www.placecage.com/130/130" alt="">
+                    <h3>Name Name</h3>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <img src="https://dummyimage.com/640x360/fff/aaa" alt="">
+    <img src="https://loremflickr.com/640/360
+    " alt=""> -->
+</div>
+
+
+<!-- contact us -->
+<div class="contact">
+    <div class="filter"></div>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div id="left">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="text" placeholder="Your phone" name="phone">
+                <input type="text" placeholder="Subject" name="sub">
+            </div>
+            <div id="right">
+                <textarea name="textarea" placeholder="Type What Do You Need"></textarea>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div>Coded By Z.k & Designed By Elzero</div>
+</footer>
+<script src="js/master.js"></script>
+</body>
+
+</html>
