@@ -148,6 +148,8 @@ strong::after {
   border-radius: 14%;
   box-shadow: 1px 1px 11px;
   opacity: 0;
+  z-index: 1000;
+  cursor: pointer;
 }
 .gallery .left-btn {
   left: 0px;
@@ -621,7 +623,7 @@ p {
   top: 50%;
   transform: translateY(-50%);
   background-image: none;
-  z-index: 2000;
+  z-index: 20;
 }
 
 .nav .bullet {

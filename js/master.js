@@ -142,7 +142,7 @@ window.onscroll = () => {
 
   let windowScrollTop = this.scrollY;
 
-  if (this.scrollY > secOfSet + secOuterheight - windowHeight) {
+  if (this.scrollY > secOfSet  - windowHeight) {
     skills.forEach((skill) => skill.classList.add("scroll"));
   } else {
     skills.forEach((skill) => skill.classList.remove("scroll"));
@@ -233,7 +233,6 @@ document.querySelector(".contact input[type=submit]").onclick =function(e){
 // toggle menu
 
 let togl= document.querySelector(".header .toggle")
-console.log(togl)
 
 togl.onclick = ()=> {
   document.querySelector(".header ul").classList.toggle("toggled");
